@@ -7,86 +7,7 @@
       <change afterPath="$PROJECT_DIR$/../.idea/modules/ex09_2351-build.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/modules/ex09_2351.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_26_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/flashcards_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/flashcards_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkstyle-suppressions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flashcards.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/MacOSXIntegration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/AbstractFlashcardSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/CommandHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/CommandHistoryChangedListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/DefaultFlashcardSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/Flashcard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/FlashcardObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/FlashcardSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/FlashcardSeriesFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/SortedFlashcardSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/JustNewLearningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/LearningStrategies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/LearningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/LearningStrategyInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/NewestFirstLearningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/OldestFirstLearningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/QuizLearningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/RandomForeverLearningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/RandomLearningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/SystematicLearningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/persistence/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/ui/FlashcardEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/ui/FlashcardListCellRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/ui/FlashcardsEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/ui/LearnDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/ui/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/st/constraints/NotNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/st/constraints/Null.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/util/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/Papers-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/accessories-text-editor-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/accessories-text-editor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/edit-redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/edit-undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/face-grin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/face-sad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/go-next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/list-add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/list-remove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/media-playback-start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/process-stop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/CommandHistoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/DefaultFlashcardSeriesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/FlashcardSeriesFilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/learning/LearningStrategiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/learning/PermutationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/learning/RandomForeverLearningStrategyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/learning/RandomLearningStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project/build.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project/plugins.sbt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project/project/target/config-classes/$3ad9c9ca9edba3e9536c$.class" afterDir="false" />
@@ -229,6 +150,7 @@
       <change afterPath="$PROJECT_DIR$/../target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -299,27 +221,44 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="yml" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -682,6 +621,13 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.travis.yml" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -721,7 +667,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548323214896" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548324675043" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -829,12 +775,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548322836983</updated>
-      <workItem from="1548322840438" duration="372000" />
+      <workItem from="1548322840438" duration="1822000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit 2.0">
+      <created>1548323416716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548323416716</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372000" />
+    <option name="totallyTimeSpent" value="1822000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -845,7 +808,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Build" weight="0.3286119" />
@@ -858,11 +821,11 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="sbt" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -889,13 +852,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
