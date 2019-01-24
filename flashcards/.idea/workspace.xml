@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d92b07a1-08d5-4230-a4d4-a7f1679c6de8" name="Default Changelist" comment="initial commit 2.0">
+      <change afterPath="$PROJECT_DIR$/../.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules/ex09_2351-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules/ex09_2351.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_26_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/flashcards_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/flashcards_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkstyle-suppressions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flashcards.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/MacOSXIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/AbstractFlashcardSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/CommandHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/CommandHistoryChangedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/DefaultFlashcardSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/Flashcard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/FlashcardObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/FlashcardSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/FlashcardSeriesFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/SortedFlashcardSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/JustNewLearningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/LearningStrategies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/LearningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/LearningStrategyInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/NewestFirstLearningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/OldestFirstLearningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/QuizLearningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/RandomForeverLearningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/RandomLearningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/model/learning/SystematicLearningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/persistence/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/ui/FlashcardEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/ui/FlashcardListCellRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/ui/FlashcardsEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/ui/LearnDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/se/flashcards/ui/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/st/constraints/NotNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/st/constraints/Null.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tud/cs/util/Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/Papers-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/accessories-text-editor-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/accessories-text-editor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/edit-redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/edit-undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/face-grin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/face-sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/go-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/list-add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/list-remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/media-playback-start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/process-stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/tud/cs/se/flashcards/ui/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/CommandHistoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/DefaultFlashcardSeriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/FlashcardSeriesFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/learning/LearningStrategiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/learning/PermutationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/learning/RandomForeverLearningStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/tud/cs/se/flashcards/model/learning/RandomLearningStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/build.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/plugins.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/project/target/config-classes/$3ad9c9ca9edba3e9536c$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/project/target/config-classes/$3ad9c9ca9edba3e9536c.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/project/target/config-classes/$3ad9c9ca9edba3e9536c.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/project/target/config-classes/$b592663e3f884fb08c93$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/project/target/config-classes/$b592663e3f884fb08c93.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/project/target/config-classes/$b592663e3f884fb08c93.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/project/target/config-classes/$fb7ab390c4a489dc24ce$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/project/target/config-classes/$fb7ab390c4a489dc24ce.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/project/target/config-classes/$fb7ab390c4a489dc24ce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$09ef6b541caa27b24978$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$09ef6b541caa27b24978.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$09ef6b541caa27b24978.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$0c5eb25b19d75b2e56c2$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$0c5eb25b19d75b2e56c2.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$0c5eb25b19d75b2e56c2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$591b1a37203b0c8bc7a9$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$591b1a37203b0c8bc7a9.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$591b1a37203b0c8bc7a9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$7470ee1cc312556f9679$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$7470ee1cc312556f9679.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$7470ee1cc312556f9679.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$7a1702395ee7bf0f9c00$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$7a1702395ee7bf0f9c00.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$7a1702395ee7bf0f9c00.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$9564deed60ccecc43c0c$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$9564deed60ccecc43c0c.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$9564deed60ccecc43c0c.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$a03883057d48cf9f2655$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$a03883057d48cf9f2655.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$a03883057d48cf9f2655.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$a42dfdd2b26044cf4a66$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$a42dfdd2b26044cf4a66.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$a42dfdd2b26044cf4a66.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$c15559f6385b92f78030$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$c15559f6385b92f78030.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$c15559f6385b92f78030.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$c48016c544c8dac1fea2$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$c48016c544c8dac1fea2.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$c48016c544c8dac1fea2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$f0322d3393dea5cf8842$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$f0322d3393dea5cf8842.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/config-classes/$f0322d3393dea5cf8842.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/default/ex09-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/default/ex09-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ex09-build-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/$global/$global/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/default/ex09$sources/1.0/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/default/ex09$sources/1.0/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/default/ex09_2.12/1.0/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/default/ex09_2.12/1.0/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09$sources-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-ex09_2.12-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/ivy-report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="flashcards" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="flashcards" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="flashcards" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="flashcards" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1346805527">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Gradle\gradle-5.1.1" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="5.1.1" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="flashcards" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="flashcards" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'flashcards'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'flashcards'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run SpotBugs analysis for main classes" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="spotbugsMain" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'flashcards'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run Checkstyle analysis for test classes" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="checkstyleTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'flashcards'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run Checkstyle analysis for main classes" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="checkstyleMain" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run SpotBugs analysis for test classes" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="spotbugsTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'flashcards'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'flashcards'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'flashcards'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'flashcards'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'flashcards'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6193075959543" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4178454503" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="3261810028" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="1714113407" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.github.spotbugs/spotbugs-gradle-plugin/1.6.9/eaea41f36f81abd0ff010d96fc6cd5011689d9d4/spotbugs-gradle-plugin-1.6.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.github.spotbugs/spotbugs-gradle-plugin/1.6.9/e187c66aae3912a2c4ffcf39d85ebafce04934ca/spotbugs-gradle-plugin-1.6.9.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="flashcards" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/ant-1.9.13.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/ant-launcher-1.9.13.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-api-metadata-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-base-services-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-base-services-groovy-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-build-cache-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-build-cache-packaging-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-build-option-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-cli-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-core-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-core-api-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-docs-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-execution-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-files-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-installation-beacon-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-jvm-services-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-kotlin-dsl-1.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-kotlin-dsl-provider-plugins-1.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-kotlin-dsl-tooling-builders-1.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-kotlin-dsl-tooling-models-1.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-launcher-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-logging-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-messaging-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-model-core-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-model-groovy-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-native-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-persistent-cache-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-process-services-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-resources-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-runtime-api-info-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-snapshots-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-tooling-api-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/gradle-wrapper-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-announce-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-antlr-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-build-cache-http-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-build-comparison-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-build-init-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-build-profile-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-code-quality-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-composite-builds-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-dependency-management-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-diagnostics-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-ear-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-ide-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-ide-native-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-ide-play-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-ivy-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-jacoco-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-javascript-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-language-groovy-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-language-java-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-language-jvm-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-language-native-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-language-scala-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-maven-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-osgi-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-platform-base-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-platform-jvm-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-platform-native-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-platform-play-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-plugin-development-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-plugin-use-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-plugins-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-publish-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-reporting-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-resources-gcs-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-resources-http-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-resources-s3-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-resources-sftp-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-scala-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-signing-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-test-kit-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-testing-base-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-testing-junit-platform-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-testing-jvm-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-testing-native-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-tooling-api-builders-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-tooling-native-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-version-control-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/gradle-workers-5.1.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-bin/90y9l8txxfw1s2o6ctiqeruwn/gradle-5.1.1/lib/plugins/ivy-2.3.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="960" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flashcards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flashcards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="flashcards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flashcards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548323214896" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.flashcards [build]">
+    <configuration name="flashcards [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="flashcards [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="flashcards [testClasses]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="testClasses" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.flashcards [run]" />
+      <item itemvalue="Gradle.flashcards [testClasses]" />
+      <item itemvalue="Gradle.flashcards [build]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.flashcards [build]" />
+        <item itemvalue="Gradle.flashcards [testClasses]" />
+        <item itemvalue="Gradle.flashcards [run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../ex02" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ex03" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ex05" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ex06" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ex07" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ex08" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ex09" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d92b07a1-08d5-4230-a4d4-a7f1679c6de8" name="Default Changelist" comment="" />
+      <created>1548322836983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548322836983</updated>
+      <workItem from="1548322840438" duration="372000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="372000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Build" weight="0.3286119" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Gradle" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit 2.0" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
