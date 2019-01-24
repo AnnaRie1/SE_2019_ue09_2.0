@@ -51,7 +51,7 @@ dependencies {
 jar {
     manifest {
         attributes("Implementation-Title": "Gradle",
-                "Implementation-Version": 8, //TODO Version = ?
+                "Implementation-Version": 1.8, //TODO Version = ?
                 "Main-Class": "de.tud.cs.se.flashcards.Main")
     }
 }
